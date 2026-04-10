@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nurtured Choice Products</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #fff7e6, #ffe0b3);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    color: #cc6600;
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    color: #555;
+    font-size: 1.2em;
+}
+
+/* Hero Image */
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero img {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Products */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h2 {
+    color: #cc6600;
+}
+
+.card p {
+    color: #555;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #ff8c1a;
+    color: white;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #e67300;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Nurtured Choice Products</h1>
+    <p>Healthy. Natural. Delicious.</p>
+</header>
+
+<div class="hero">
+    <img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71" alt="Healthy food">
+</div>
+
+<section class="products">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38" alt="Honey">
+        <div class="card-content">
+            <h2>Quick Health Honey</h2>
+            <p>Pure, natural honey packed with nutrients to boost your health and energy.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1604908176997-431a6b47cbb6" alt="Peanut Butter">
+        <div class="card-content">
+            <h2>Sweetnut Peanut Butter</h2>
+            <p>Creamy, delicious peanut butter made from premium quality peanuts.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1615485925600-97237c4fc1ec" alt="Groundnuts">
+        <div class="card-content">
+            <h2>Sweetnut Groundnuts</h2>
+            <p>Crunchy, roasted groundnuts perfect for healthy snacking anytime.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Nurtured Choice Products</p>
+</footer>
+
+</body>
+</html>
